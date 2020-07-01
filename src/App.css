@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  background: rgb(2,0,36);
+  background: linear-gradient(176deg, rgba(2,0,36,1) 0%, rgba(83,110,101,1) 35%, rgba(0,255,236,1) 100%);
+}
+
+.board {
+  color: red;
+}
+
+.winComponent {
+   font-size: 50px;
+   text-align: center;
+   margin: 20px;
+}
+
+#input {
+  border-radius: 5px;
+  border: none;
+  border-collapse: collapse;
+  outline: none;
+  background-color: rgba(0,255,236,0.8);
+  height: 20px;
+}
+
+#refreshButton {
+  border-radius: 5px;
+  border: none;
+  border-collapse: collapse;
+  outline: none;
+  background-color: rgba(0,255,236,0.8);
+  height: 30px;
+}
